@@ -1,0 +1,37 @@
+{
+  "name": "erkalicious-grunt-watch",
+  "version": "0.0.0",
+  "description": "Watch files for changes, running pre-defined tasks on any said changes (live reload included).",
+  "main": "tasks/watch.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erkalicious/erkalicious-grunt-watch"
+  },
+  "keywords": [
+    "Node",
+    "Watch",
+    "gruntplugin",
+    "LiveReload"
+  ],
+  "dependencies": {
+    "semver": "^3.0.1",
+    "tiny-lr-fork": "0.0.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-release": "^0.7.0"
+  },
+  "author": "Eric Ferreira",
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "bugs": {
+    "url": "https://github.com/erkalicious/erkalicious-grunt-watch/issues"
+  },
+  "engines": {
+    "node": ">= 0.9.2"
+  }
+}
