@@ -1,6 +1,6 @@
 {
   "name": "erkalicious-grunt-watch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Watch files for changes, running pre-defined tasks on any said changes (live reload included).",
   "main": "tasks/watch.js",
   "repository": {
